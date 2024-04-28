@@ -1,0 +1,42 @@
+---
+title: "SU ÜRÜNLERİ İSTATİSTİKLERİ"
+author: "Mohammad Marmash"
+date: "2024-04-28"
+output: html_document
+---
+
+Bu çalışmayla, her yıl Devlet İstatistik Enstitüsü’nce yayımlanmakta olan su ürünleri istatistikleri verilerinin bir veritabanı oluşturularak kullanımını kolaylaştırmak ve geçmiş yıl verilerini topluca sunmak amaçlanmıştır.
+
+Bu amaçla, 1982-1999 yıllarına ait su ürünleri üretim değerleri ve balıkçı tekneleri sayıları MS EXCEL, MS ACCESS programları kullanılarak bilgisayar ortamına aktarıldı. MS VISUAL BASIC programlama diliyle veritabanına erişim ve verilerin kullanımı sağlandı. Bu programda bütün yıllara ait veriler, veri grafikleri, dağılım haritaları, balık resimleri ve balıklar hakkında diğer bazı bilgiler sunulmuştur.
+
+FAO Balıkçılık Bilgi, Veri ve İstatistik Birimi, 1984'ten bu yana küresel su ürünleri üretimini ağırlık ve değere göre sistematik olarak toplamakta ve yaymaktadır. Veri toplama mekanizmaları ve ülkeler tarafından FAO'ya sağlanan su ürünleri yetiştiriciliğinden üretime ilişkin verilerin kapsamı ve kalitesi sürekli olarak denetlenmektedir. kalitelerini ve gelecekteki ulusal ve küresel ihtiyaçlara uygunluğunu geliştirmek amacıyla gözden geçirilir. Gelecekteki bu tür ihtiyaçlar vurgulanıyor ve bu ihtiyaçlardan bazılarının şu anda nasıl ele alındığına dair bir tartışma sunuluyor. Aşağıdaki konular ele alınmaktadır: ekonomik bir faaliyet olarak su ürünleri yetiştiriciliği; su ürünleri yetiştiriciliğinin tanımı; tanımlanamayan su organizmaları; balıkçılıktan elde edilen küresel üretimin raporlanmasına ilişkin önerilen değişiklikler; su ürünleri yetiştiriciliğine ilişkin nicel yapısal bilgiler; ve su ürünleri yetiştiriciliği istatistiklerinin toplanmasına ilişkin mevcut durum ve kısıtlamalar.\
+\
+Hazırlanan program sayesinde, bölgelere göre 57 deniz balığı, 20 diğer deniz ürünü ve illere göre 19 tatlısu balığı, 10 kültür balığı hakkında tüm yıllara ait istatistik verilerini bir arada görmek mümkün olmuş, üretimdeki dalgalanmalar grafikte gösterilmiş ve veriler hakkında çok yönlü değerlendirme yapmak kolaylaştırılmıştır. Balık türlerinin bölgelere ve illere göre dağılımları, resimleri ve balıklar hakkında tanıtıcı bazı bilgiler programa eklenmiştir. Ayrıca niteliklerine göre balıkçı teknelerin sayıları da programda yıllar itibariyle sunulmuştur.\
+\
+Ülkemiz denizlerinde şimdiye kadar beş barbungil (Mullidae Rafinesque, 1815) türü kayıt edilmiş olup, bunlardan barbun (Mullus barbatus Linnaeus, 1758) ve tekir balığı (Mullus surmuletus Linnaeus, 1758) tüm denizlerimizde, Nil barbunu (Upeneus moluccensis (Bleeker, 1855)) ve benekli barbun (Upeneus pori Ben-Tuvia & Golani, 1989) Akdeniz ile Ege’de, Kızıldeniz barbunu ise (Parupeneus forsskali (Fourmanoir & Guézé, 1976)) yalnızca Akdeniz’de yayılım göstermektedir (Bilecenoğlu vd., 2014). Barbun ve tekir balığı Atlantik-Akdeniz kökenli olup; bölgemizin yerli türleri arasında yer almaktadır. Diğer üç tür ise Lesepsiyen olup; Hint-Pasifik kökenlidir ve Akdeniz’e Süveyş Kanalı yoluyla girmişlerdir (Golani vd., 2006; Bariche vd., 2013).\
+\
+\
+Türkiye’de 2017 yılı itibariyle barbungil avcılığından elde edilen mali değer 80 milyon Türk Lirası’nın üzerindedir. Ülkemizde gerçekleştirilen barbungil avcılığının önemli bir kısmı Akdeniz, Ege ve Batı Karadeniz’den gelmekte olup (TÜİK, 2019); bu bölgelerde hangi illerin bu avcılıkta önemli rol üstlendiği henüz araştırılmamıştır. Ayrıca, Türkiye’de barbungil balıklarının avcılığının dip trolü başta olmak üzere sade ve fanyalı uzatma ağlarıyla yapıldığı bilinse de (Hoşsucu, 2000); hangi av araçlarının toplam ava hangi ölçüde katkı sağladığına dair bir değerlendirme ile henüz karşılaşılmamıştır.\
+\
+Türkiye İstatistik Kurumu kayıtlarına göre, Türkiye kıyılarında barbungil balıkları toplam 18 farklı av aracıyla yakalanmaktadır. Bunlar dışında 1219 kayıtta av aracı rapor edilmemiş, dokuz kayıt ise “Diğer” av aracı şeklinde rapor edilmiştir. Dört yıl boyunca alınan kayıt sayısı bakımından değerlendirildiğinde, 13948 kayıt ile en çok rapor veren filo segmenti dip trolü kullanan balıkçılardır. Bunu 2158 kayıt ile fanyalı ve 2142 kayıt ile sade uzatma ağları takip etmektedir. 598 kayıt ile gırgır ise dördüncü sırada yer almaktadır. Diğer taraftan tekne başına rapor edilen ortalama av miktarları ele alındığında, yalnızca bir kez barbungil kaydı vermiş olan ığrıp (Kocaeli/Darıca; 10000 kg/tekne) ve 169 kez barbungil kaydı vermiş olan ortasu trolü’nün (1639 kg/tekne) ilk iki sırada yer aldığı görülmektedir \
+\
+\
+
+**Ülkelere göre dünya su ürünleri üretimi (ton)\
+**\
+```{r}
+## # A tibble: 9 × 4
+##   country      2019              2020               2021
+
+## 1 China      62.242.310        62.846.808       64.159.579
+## 2 India      13.386.400        13.265.638       14.394.560
+## 3 Indonesia  12.774.873        12.103.606       12.665.749
+## 4 Vietnam    7.926.658         8.173.609        8.276.370
+## 5 Peru       4.976.241         5.770.371        6.677.498
+## 6 Russia     5.212.169         5.342.456        5.455.718
+## 7 USA        5.314.752         4.708.885        4.723.804
+## 8 Bangladeş  4.384.219         4.503.37         4.621.228
+## 9 Norway     3.767.966         3.962.634        4.060.575
+```
+
+#37 Turkey 250,331 ton

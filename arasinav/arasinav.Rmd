@@ -1,7 +1,7 @@
 ---
-title: "Çalışmanızın Başlığı"
+title: "Su Ürünleri İstatistikleri"
 author: 
-  - İsim Soyisim[^1]
+  - MOHAMMAD AMJAD AFEEF MARMASH MOHAMMAD AMJAD AFEEF MARMASH[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa-tr.csl
 header-includes:
@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== NOTLAR ================================= -->
 <!-- ======================================================================= -->
-[^1]: Öğrenci Numarası
+[^1]: 20080739
 
 # Vize Hakkında Önemli Bilgiler
 
@@ -43,16 +43,23 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Daha fazla bilgi için proje klasöründeki README.md dosyasını okuyunuz.}
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
+Su ürünleri istatistikleri, deniz ürünleri ile iç su (tatlısu) ve yetiştiricilik bilgilerinden oluşmaktadır. 2014 yılından itibaren deniz balıkları ve diğer deniz ürünleri üretimine ait istatistikler, büyük balıkçılara aylık ve küçük balıkçılara sezonluk olarak uygulanan Aylık Büyük Balıkçı ve Sezonluk Küçük Balıkçı Deniz Ürünleri Anketleri ile derlenmektedir. Gemi özellikleri ve ekonomik yapıya ait istatistikler ise Yıllık Deniz Ürünleri Anketi ile derlenmektedir. Araştırmanın mikro verisi TÜİK Veri Araştırma Merkezi aracılığıyla kullanıcılara sunulmaktadır. İlgili mikro veri seti, 2020 yılı Aylık-Sezonluk Deniz Ürünleri Avcılığı ile Yıllık Deniz Ürünleri Avcılığı Anketi ile derlenen değişkenleri kapsamaktadır.
 
 
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir (doğal olarak ilk bölüm başlığı hariç). Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
 
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Su Ürünleri İstatistikleri, aylık, sezonluk ve yıllık bazda yürütülen çalışmaları kapsamaktadır. Ülkemiz milli gelir ve milli muhasebe hesaplarında kullanılacak su ürünleri verilerini derlemek, balıkçılık sektörünün durumunu belirleyecek plan ve yıllık programlarda kullanılacak bilgileri elde etmek, su ürünlerine ait miktar, fiyat ve değerleri derlemek, deniz balıkçılığında kullanılan araçların ve av malzemelerinin özellikleri hakkında bilgi derlemek, deniz balıkçılığı faaliyetleri için yapılan yatırımlar ve giderler ile deniz balıkçılığında çalışanların sayısı, çalıştıkları gün ve ödenen ücretlerini saptamak, bu çalışmanın amacını oluşturmaktadır.
 
 ## Literatür 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az dört** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+Su Ürünleri İstatistikleri Mikro Veri Seti - 2021:Bu makalede, Türkiye'deki deniz ürünleri istatistiklerinin nasıl derlendiği ve hangi veri setlerinin kullanıldığı hakkında bilgi veriliyor
+
+Anonim, (1999), Devlet İstatistik Enstitüsü 1926-1999 :Bu çalışmayla, her yıl Devlet İstatistik Enstitüsü’nce yayımlanmakta olan su ürünleri istatistikleri verilerinin bir veritabanı oluşturularak kullanımını kolaylaştırmak ve geçmiş yıl verilerini topluca sunmak amaçlanmıştır.
+
+Türkiye’deki barbungiller balıkçılığının TÜİK mikro-veri setine dayalı olarak değerlendirilmesi : Bu makalede, Türkiye İstatistik Kurumu (TÜİK) tarafından 2014-2017 yılları için derlenen mikro-veri seti kullanılarak ticari balıkçılık filomuz tarafından gerçekleştirilen barbun (Mullus barbatus Linnaeus, 1758) ve tekir (Mullus surmuletus Linnaeus, 1758) avının şehirlere göre değişimi incelenmiş, küçük (tekne <10m) ve büyük ölçekli (tekne >10m) balıkçılar ile farklı balıkçılık yöntemlerinin toplam ava katkısı karşılaştırılmış ve rapor edilen ıskarta oranları değerlendirilmiştir.
+
+
+
+
 
 
 **_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
@@ -60,4 +67,16 @@ Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tart
 \newpage
 # Kaynakça {#references}
 <div id="refs"></div>
+e-vam Su Ürünleri İstatistikleri Mikro Veri Seti - 2021(TR)
+https://evam.tuik.gov.tr/dataset/detail/35
+
+SEAFDEC INSTITUTIONAL REPOSITORY (EN)
+http://repository.seafdec.org/handle/20.500.12066/5424
+
+Elbek, A. G., Oktay, E., Saygı, H., (1996), Su Ürünlerinde İstatistik, Ege Üniversitesi Su Ürünleri Fakültesi, İzmir
+
+Balık, İ. (2020). Effect of Depth and Season on Catch Composition and Discard Rate in Gillnet Fishery in the South-eastern Coast of the Black Sea. Acta Aquatica Turcica, 16(1), 82–93.
+
+
+
 
